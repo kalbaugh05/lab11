@@ -1,3 +1,19 @@
+[tool.poetry]
+name = "lab11"
+version = "0.1.0"
+description = "Lab 11 - Presidio Anonymizer Initial Operator"
+authors = ["Kyra Albaugh <kyra@example.com>"]
+readme = "README.md"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+presidio-anonymizer = "*"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+
+
 [tool.ruff]
 
 exclude = [
